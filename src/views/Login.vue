@@ -17,8 +17,8 @@
   const userStore = useUserStore()
   // const router = useRouter()
 
-  const email = ref('')
-  const password = ref('')
+  const email = ref('ebenitez@test.com')
+  const password = ref('123123')
 
   const handleSubmit = async () => {
     if(!email.value || password.value.length < 6){
